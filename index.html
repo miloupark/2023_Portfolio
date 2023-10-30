@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="페이지 제목" />
+  <meta property="og:description" content="페이지 설명" />
+  <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg"/>
+  <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="페이지 제목" />
+  <meta name="twitter:description" content="페이지 설명" />
+  <meta name="twitter:image" content="http://www.mysite.com/article/article1.html"/>
+  <meta name="twitter:domain" content="사이트 명" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./dist/css/comm.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script defer src="./dist/js/script.js"></script>
+  <title>HyebinPark 2023 Portfolio | Personal Growth Archive</title>
+</head>
+<body>
+  <div id="wrap" class="wrap">
+    <!-- Header -->
+    <header id="header" class="header">
+      <h1 class="portfolio-title">
+        <a class="portfolio-title-txt" href="#">Hyebin Park</a>
+      </h1>
+      <nav class="nav-menu">
+        <ul class="menu-lst">
+          <li class="active">
+            <a href="#Dashboard">
+            <span class="menu-category">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Profile">
+            <span class="menu-category">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Project">
+            <span class="menu-category">Project</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Contact">
+            <span class="menu-category">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- profile -->
+      <section id="profile" class="profile">
+        <h2 class="blind"></h2>
+        <!-- Intro -->
+        <div class="profile-intro">
+          <h3>
+            <p class="profile-intro_title intro_title-p">Personal</p>
+            <p class="profile-intro_title intro_title-g">Growth</p>
+            <p class="profile-intro_title intro_title-a">Archive</p>
+            <p class="profile-intro_title intro_title-name">2023 Portfolio</p>
+          </h3>
+          <img class="profile-intro-img" src="./dist/images/졸업사진-removebg-bw.png" alt="박혜빈 이미지">
+        </div>
+
+        <!-- About -->
+        <div class="profile-about">
+          <h3 class="h3-title profile-about-tit">About</h3>
+          <div class="profile-about-g">
+            <!-- Profile grid 1 : Profile -->
+            <div class="profile-aboutme">
+              <h4 class="h4-title profile-aboutme-tit">Profile</h4>
+              <ul class="profile-aboutme_lst">
+                <li class="profile-aboutme_lst-cont">
+                  <p>박혜빈</p>
+                </li>
+                <li>
+                  <p>1996.04.07</p>
+                </li>
+                <li>
+                  <p>010-7154-9604</p>
+                </li>
+                <li>
+                  <p>helenapark96@naver.com</p>
+                </li>
+              </ul>
+            </div>
+            <!-- Profile grid 2 : Skills -->
+            <div class="profile-skills">
+              <h4 class="h4-title profile-skills-tit">Skills</h4>
+              <ul class="profile-skills_lst">
+                <li class="profile-skills_lst-icon">
+                  <img class="skill-icons html" src="./dist/images/HTML.svg" alt="html">
+                  <img class="skill-icons css" src="./dist/images/CSS.svg" alt="css">
+                  <img class="skill-icons sass" src="./dist/images/Sass.svg" alt="sass">
+                  <img class="skill-icons javascript" src="./dist/images/JavaScript.svg" alt="javascript">
+                  <img class="skill-icons jquery" src="./dist/images/JQuery.svg" alt="jquery">
+                  <img class="skill-icons React" src="./dist/images/React-Dark.svg" alt="React">
+                  <img class="skill-icons figma" src="./dist/images/Figma-Dark.svg" alt="figma">
+                  <img class="skill-icons photoshop" src="./dist/images/Photoshop.svg" alt="photoshop">
+                  <img class="skill-icons Illustrator" src="./dist/images/Illustrator.svg" alt="Illustrator">
+                </li>
+              </ul>
+            </div>
+            <!-- Profile grid 3 : Education & Certificate -->
+            <div class="profile-education">
+              <h4 class="h4-title profile-edu-tit">Education<br>& Certificate</h4>
+              <ul class="profile-edu_lst">
+                <li class="profile-edu_lst-cont">
+                  <p><span class="profile-edu_lst-date">2023</span>UI/UX 디자인&프론트엔드 과정 수료</p>
+                </li>
+                <li>
+                  <p><span class="profile-edu_lst-date">2020</span>경희대학교 예술디자인대학 도예학과 졸업</p>
+                </li>
+                <li>
+                  <p><span class="profile-edu_lst-date">2023</span>웹디자인기능사</p>
+                </li>
+              </ul>
+            </div>
+            <!-- Contact -->
+            <div class="profile-contact">
+              <h4 class="h4-title profile-contact-tit">Contact</h4>
+              <ul class="profile-contact_lst">
+                <li class="profile-contact_lst-cont contact-github">
+                  <a href="https://github.com/miloupark">
+                    <span class="profile-contact_lst-cont_icon">🔗 GitHub : github.com/miloupark</span>
+                    <span class="profile-contact_lst-cont_tooltip">
+                      <img class="profile-contact_lst-cont_tooltip_cont" src="./dist/images/Github-Dark.svg" alt="깃허브">
+                      click me!
+                    </span>
+                  </a>
+                </li>
+                <li class="profile-contact_lst-cont">
+                  <a href="https://github.com/miloupark">
+                    <span class="profile-contact_lst-cont_icon">🔗 Kakao : jujeopking</span>
+                  </a>
+                </li>
+                <li class="profile-contact_lst-cont">
+                  <a href="mailto:helenapark@naver.com" target="_blank" rel="noopener noreferrer">✉️ Email : helenapark96@naver.com</a>
+                </li>
+                <li class="profile-contact_lst-cont">
+                  <a href="mailto:helenapark@naver.com" target="_blank" rel="noopener noreferrer">hoonywhitesocks@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- profile text slide -->
+      <section class="profile-text-slide">
+        <div class="profile-text-slide-track">
+          <div class="profile-text-slide-text">
+            <span>Web Publisher</span>
+            <span>박혜빈의 포트폴리오 Personal Growth Archive를 소개합니다</span>
+            <span>멋지구리 말 넣기</span>
+            <span>PGA</span>
+            <span>문득 더 궁금해지셨다구요?</span>
+            <span>Github</span>
+            <span>열심히 작성한 이력서가 보고싶으신가요?</span>
+            <span>Email</span>
+            <span>갑자기 만나보고 싶어지셨다구요?</span>
+            <span>Kakao</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- project -->
+      <h2><span class="blind">Project</span></h2>
+      <!-- project tokenpost -->
+      <div class="1st-webdesign accordion">
+        <ul>
+          <p class="webdesign-tit">📂 Tokenpost</p>
+          <li>
+            <!-- <div>
+              <p>웹 표준, 웹 접근성 준수 및 디자인 개편</p>
+              <p>블록체인 전문 미디어 사이트 ‘토큰포스트' 반응형 페이지 제작 및 퍼블리싱</p>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+      <div class="1st-webdesign-cont accordion-cont">
+        <p>Tokenpost 내용 블라블라</p>
+      </div>
+      
+      <!-- Alessandro Mendini -->
+      <div class="2nd-webdesign accordion">
+        <ul>
+          <p class="webdesign-tit">Alessandro Mendini</p>
+          <li>
+            <div>
+              <p>웹 표준, 웹 접근성 준수 및 디자인 개편</p>
+              <p>블록체인 전문 미디어 사이트 ‘토큰포스트' 반응형 페이지 제작 및 퍼블리싱</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="2nd-webdesign-cont accordion-cont">
+        <p>Alessandro Mendini 내용 블라블ㄹ ㅏㅏㅏ</p>
+      </div>
+      
+      <!-- Verve -->
+      <div class="3rd-webdesign accordion">
+        <ul>
+          <p class="webdesign-tit">Verve</p>
+          <li>
+            <div>
+              <p>웹 표준, 웹 접근성 준수 및 디자인 개편</p>
+              <p>블록체인 전문 미디어 사이트 ‘토큰포스트' 반응형 페이지 제작 및 퍼블리싱</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="3rd-webdesign-cont accordion-cont">
+        <p>Verve 내용 블라블라</p>
+      </div>
+
+      <!-- React -->
+      <div class="4th-webdesign accordion">
+        <ul>
+          <p class="webdesign-tit">React</p>
+          <li>
+            <div>
+              <p>웹 표준, 웹 접근성 준수 및 디자인 개편</p>
+              <p>블록체인 전문 미디어 사이트 ‘토큰포스트' 반응형 페이지 제작 및 퍼블리싱</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="4th-webdesign-cont accordion-cont">
+        <p>🚧공🚧사🚧중🚧</p>
+      </div>
+     
+
+    </main>
+  </div>
+</body>
+</html>
